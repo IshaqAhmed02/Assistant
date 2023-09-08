@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
          #you can add anything if you want
 
-        if 'play' in Speach:
+        if 'search' in Speach:
             song = Speach.replace('play', '')
             speak('playing....')
             pywhatkit.playonyt(song)
